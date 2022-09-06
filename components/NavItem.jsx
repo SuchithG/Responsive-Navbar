@@ -6,7 +6,7 @@ const NavItem = ({ text, href, active }) => {
         className={`nav__item ${
           active ? "active" : ""
         }`}
-      >
+      > 
         {text}
       </a>
     </Link>
